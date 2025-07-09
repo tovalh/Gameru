@@ -5,6 +5,7 @@ import AppLayout from '@/layouts/AppLayout.vue';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { SendHorizonal } from 'lucide-vue-next';
+import axios from 'axios';
 
 const props = defineProps({
     game: Object,
